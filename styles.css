@@ -1,0 +1,145 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    color: #302a28;
+    font-family: "Balthazar", serif;
+    margin: 0;
+
+}
+
+#HERO {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cHUxcmwxdTFmcG0wZ21mdXY4MTNlNWw1ZWJuZ2s1eWNjMWw1MTlvMiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/Z416D7PjPndLi/giphy.gif");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 343px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#call-out {
+    background: #8d5d46;
+    width: 260px;
+    font-style: normal;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0;
+
+}
+
+#action-1 {
+    background: #4c362b;
+    color: #ffffff;
+    width: 412px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+#Activities {
+    background-color: #3e2f3d;
+    background-size: cover;
+    height: 343px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#activities-top {
+    text-align: center;
+    color: #FDDBAB;
+    padding-top: 40px;
+    margin: 0;
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.image-container img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 30px 0 0 30px;
+    
+}
+
+.item {
+    color: #FDDBAB;
+    text-align: center;
+    width: 200px;
+    height: 225px;
+
+}
+
+#Guide-section {
+    background-color: #ffffff;
+    background-size: cover;
+    margin: 0;
+    height: 400px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+
+}
+
+#business-card {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d79f8b;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-bottom: 5px solid #3e2f3d;
+    text-align: center;
+
+    
+
+}
+
+.avatar {
+    width: 180px;
+    padding-right: 20px;
+}
+
+#testimonial {
+    font-style: italic;
+    font-weight: 400;
+    size: 16px;
+
+}
+
+#signature {
+    font-style: bold;
+    font-weight: 700;
+    size: 16px;
+
+}
+
+#heading2 {
+    font-weight: 700;
+}
